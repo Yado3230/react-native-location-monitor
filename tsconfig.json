@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // JavaScript version to output
+    "module": "commonjs", // Module system
+    "declaration": true, // Generate declaration files (.d.ts)
+    "outDir": "./", // Output directory
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allow default imports from modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["lib/**/*", "index.ts"], // Include all TypeScript files
+  "exclude": ["node_modules", "android"]
+}
